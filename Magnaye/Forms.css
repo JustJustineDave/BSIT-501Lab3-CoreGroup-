@@ -1,0 +1,29 @@
+* {
+    font-family: sans-serif;
+}
+.boxmodel {
+    padding: 10px;
+    margin: 0px;
+    background-color: lightgray;
+}
+#longbox {
+    width: 50em;
+}
+#icon {
+    width: 1.4em;
+    height: 1.4em;
+}
+#PIcon {
+    width: 6em;
+    height: 6em;
+}
+input:hover{
+    border: 0.15em solid rgb(107, 198, 255);
+}
+fieldset { 
+    margin: 0 auto;
+    padding: 1em;
+    width: 60em;
+    background-color: white;
+  } 
+   

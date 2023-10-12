@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	<title> RESUME </title>
+	<link href="Forms.css" rel="stylesheet"/>
+	</head>
+
+<body style="background-color:  #ffffe6;">	
+    <fieldset>
+		<legend><h1>Curriculum Vitae</h1></legend>
+    <img src = "ProfileIcon.png" id="PIcon"><br>
+    <button>Insert your picture</button>
+    <br><br><br>
+
+		<h3 class="boxmodel">Personal Information</h3>
+		<label>Full Name: </label><br>
+		  <input type="text" name="fname" placeholder="First Name"/>
+      <input type="text" name="lname" placeholder="Last Name"/>
+      <input type="text" name="minitial" placeholder="Middle"/>
+    <br> <br>
+    <label>Age: </label>
+		  <select name="choices">
+        <option>1</option><option>2</option><option>3</option><option>4</option><option>5</option><option>6</option><option>7</option>
+			  <option>8</option><option>9</option><option>10</option><option>11</option><option>12</option><option>13</option><option>14</option><option>15</option><option>16</option><option>17</option><option>18</option><option>19</option><option>20</option>
+			</select>  
+    <label>Birthdate:</label>
+			<input type="date" name="date" />
+    <label>Birth Place: </label>
+			<input type="text" name="Birthplace" placeholder="Birth Place"/><br>
+      <label>Gender: </label>
+      <form action="">
+          <input type="radio" name="gender" value="male" checked> Male
+          <input type="radio" name="gender" value="female"> Female
+          <input type="radio" name="gender" value="other"> Other
+      </form>
+    <label><img  src = "AIcon.png" id="icon">Address: </label>
+		  <input type="text" name="Padress" placeholder="Barangay"/>
+      <input type="text" name="Barang" placeholder="Province"/>
+      <input type="text" name="Padress" placeholder="City"/>
+      <input type="text" name="Padress" placeholder="ZipCode"/>
+    <br><br>
+    <label>Religion: </label>
+			<input type="text" name="PReligion" placeholder="Religion"/>
+    <label>Nationality: </label>
+			<input type="text" name="PNationality" placeholder="Nationality"/>
+    <label>Language: </label>
+      <select name="choices">
+        <option>English</option>
+        <option>Tagalog</option>
+        <option>Korean</option>
+        <option>Japanese</option>
+      </select>
+		<br><br>
+    <label><img  src = "EIcon.png" id="icon">Email Adress: </label>
+		  <input type="text" name="emailaddress" placeholder="Email Address"/>
+    <label><img  src = "TIcon.png" id="icon">Telephone Number: </label>
+		  <input type="text" name="Ptelnumber" placeholder="Telephone Number"/>
+    <br><br>
+    <br>
+    <h3 class="boxmodel">Father's Information</h3>
+    <label>Father's Name: </label><br>
+		  <input type="text" name="fatherfname" placeholder="First Name"/>
+      <input type="text" name="fatherlname" placeholder="Last Name"/>
+      <input type="text" name="fatherminitial" placeholder="Middle"/>
+    <br><br>
+    <label>Occupation: </label><br>
+      <input type="text" name="fatheroccupation" placeholder="Occupation"/>
+    <h3 class="boxmodel">Mother's Information</h3>
+      <label>Mother's Maiden Name: </label><br>
+		    <input type="text" name="motherfname" placeholder="First Name"/>
+        <input type="text" name="motherlname" placeholder="Last Name"/>
+        <input type="text" name="motherminitial" placeholder="Middle"/><br><br>
+        <label>Occupation: </label><br>
+        <input type="text" name="motheroccupation" placeholder="Occupation"/>
+    <h3 class="boxmodel">Educational Attainment</h3>
+      <label>Pre-School: </label><br>
+        <input type="text" name="preschool" id="longbox" placeholder="Pre School"/>
+    <br><br>
+    <label>Primary Education: </label><br>
+      <input type="text" name="primaryeducation" id="longbox" placeholder="Primary Education"/>
+    <br><br>
+    <label>Secondary Education: </label><br>
+      <input type="text" name="secondaryeducation" id="longbox" placeholder="Secondary Education"/>
+    <br><br><br>
+    <h3 class="boxmodel">Other Informations</h3>
+    <label>Skills: </label><br>
+      <input type="text" name="Skills" id="longbox" placeholder="Your Skills"/>
+    <br><br>
+    <label>Hobbies: </label><br>
+      <input type="text" name="Hobbies" id="longbox" placeholder="Your Hobbies"/>
+    <br><br>
+    <input type="submit" />
+    </fieldset>
+</body>
+</html>		
