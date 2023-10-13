@@ -1,0 +1,29 @@
+fieldset {
+	border:10px;
+	background-color:#ecd5e3;
+	margin:15px;
+}
+legend, h2, h3{
+	text-align:center;
+}
+.Photo{
+	text-align:center;
+}
+.Names{
+	font-family:Times New Roman;
+	font-size:17px;
+}
+.TextArea{
+	font-family:Times New Roman;
+	font-size:17px;
+	padding:10px
+}
+.TextArea2{
+	font-family:Times New Roman;
+	font-size:17px;
+	padding:5px
+}
+.Submit{
+	font-family:Times New Roman;
+	text-align:center;	
+}
