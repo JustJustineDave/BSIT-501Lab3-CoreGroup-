@@ -1,0 +1,32 @@
+div h1{
+	text-align: center;
+	padding: 0px;
+	margin: 0px;
+	font-size: 40px;
+}div h2{
+	padding: 0px;
+	margin: 0px;
+}.style{
+	background-color: rgb(205, 219, 199);
+	padding: 1em;
+	margin: 0 auto;
+	width: 60em;
+}label{
+	color: rgb(0, 0, 0);
+	font-weight: bold;
+}.Educ{
+	font-size: 25px;
+
+}.Educational{
+	font-size: 20px;
+}
+h3{
+	font-size: 30px;
+}#You{
+	font-style: italic;
+}img{
+	width: 180px;
+    height: 150px;
+    margin: 0 auto;
+    padding: 0 auto;
+}
